@@ -1,0 +1,120 @@
+
+body {
+}
+
+table { 
+	border: #999999 solid 1px ; 
+	border-collapse:collapse;
+}
+
+th { 
+	border: #999999 solid 1px ; 
+	padding: 5px;
+	font-weight: bold;
+	text-align: center ;
+}
+
+td { 
+	border: #999999 solid 1px ; 
+	padding: 4px;
+}
+
+td a { 
+    display: block; 
+    border: 1px solid #DDD;
+    padding: 2px; 
+}
+
+.err {
+	color: #FF9900;
+}
+
+.completed { background-color:#4682b4; color:white;}
+.running { background-color:#FFFF00; color:black;}
+
+.pass { background-color:#00FF00; color:black; }
+.fail { background-color:#FF6666; color:white; }
+.fatal { background-color:red; color:white; }
+.untested { background-color:#00FFFF;  color:white;  }
+.unsupported { background-color:#FF8000; }
+.invalid { background-color:#0000FF; color:white; }
+
+.gb { font-size:9px; }
+
+.dlog { 
+	color:#0000FF ;
+	background-color:#EEE;
+	text-decoration:underline;
+}
+
+.dlog:hover { 
+	background-color:#00FFFF;
+}
+
+td { 	
+ 	vertical-align:top; 
+	text-align:center }
+
+
+.debugclr {
+color:green;
+}
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+pre-old {
+ overflow-x: auto; /* Use horizontal scroller if needed; for Firefox 2, not needed in Firefox 3 */
+ white-space: pre-wrap; /* css-3 */
+ white-space: pre; /* css-2 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap; /* Opera 4-6 */
+ white-space: -o-pre-wrap; /* Opera 7 */
+ width: 99%; 
+ word-wrap: break-word; /* Internet Explorer 5.5+ */
+ /* font-size: 12px; font-family: Courier New, Courier, monospace; */
+ style="table-layout: fixed;"
+ display: inline;
+}
+
+a:hover {
+	/*
+    background-color: yellow;
+	*/
+}
+
+img {
+/*	
+	min-height:100%;
+	min-width: 100%;
+	width:auto;
+	height:auto;
+	position: absolute;
+	top:-100%; bottom:-100%;
+	left:-100%; right:-100%;
+	margin:auto;
+*/
+}
+
+/*
+
+
+
+*/
+
+body {
+/*
+  overflow-y: scroll;
+*/
+}
+.side-nav {
+/*
+  overflow-y: scroll;
+*/
+}
+

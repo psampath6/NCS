@@ -1,0 +1,340 @@
+
+div , span
+{
+word-wrap: break-word;
+}
+
+.btnbgc {
+    background-color: #222222;
+    border-radius: .5em;
+    padding: 2px;
+/*
+    border-radius: .5em;
+    padding: .5em;
+*/
+}
+
+.filebgc {
+    font-size: 22px;
+    color: white;
+    background-color: #111111;
+    border-radius: .5em;
+    padding: .5em;
+/*
+*/
+}
+
+/* ***************************** */
+
+
+/* ***************************** */
+
+
+.spinner {
+}
+
+/*
+margin: 0px 0px 0px 50px ;
+margin: 0px 0px 0px 0px ;
+padding: 0px 0px 0px 0px ;
+*/
+
+#spincenter {
+}
+
+/*
+  width: 20% ;
+  margin-left: auto ;
+  margin-right: auto ;
+*/
+
+/* ***************************** */
+
+a.filebgc {
+}
+
+.prebar {
+background-color: DarkGray;
+}
+
+/* ***************************** */
+
+#advdisplay {
+  background-color: #EEEEEE;
+  border: 1px solid #CCCCCC;
+  font-weight: boldz;
+  color: ;
+  padding: px;
+}
+
+/* ***************************** */
+
+.navbar-inverse .navbar-brand {
+  background-color: transparent;
+  color: #DDDDDD;
+  font-weight: bold;
+/*
+  background-color: #333333;
+  color: #999999;
+*/
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+/*
+  background-color: #000000;
+  color: yellow;
+*/
+/*
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: bold;
+*/
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  font-weight: bold;
+  background-color: transparent;
+  color: #CCCCCC;
+/*
+  color: #999999;
+*/
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  background-color: #000000;
+  color: lime;
+/*
+  background-color: transparent;
+  color: #ffffff;
+*/
+}
+
+
+/* ***************************** */
+
+/*
+a.nbblackonwhite:hover,
+a.nbblackonwhite:focus
+
+Crimson
+DeepPink
+FireBrick
+Tomato
+Sienna
+
+  background-color: Sienna ;
+  background-color: DeepPink ;
+*/
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus
+{
+  color: black;
+  background-color: LightGrey ;
+}
+
+.navbar-inverse .navbar-nav > li > a.NbSearch:hover ,
+.navbar-inverse .navbar-nav > li > a.NbSearch:focus
+{
+  color: white;
+  background-color: Crimson ;
+}
+
+.navbar-inverse .navbar-nav > li > a.NbPostAd:hover ,
+.navbar-inverse .navbar-nav > li > a.NbPostAd:focus
+{
+  color: white;
+  background-color: RoyalBlue ;
+}
+
+.navbar-inverse .navbar-nav > li > a.NbRegister:hover ,
+.navbar-inverse .navbar-nav > li > a.NbRegister:focus
+{
+  color: white;
+  background-color: Green ;
+}
+
+.navbar-inverse .navbar-nav > li > a.NbLogin:hover ,
+.navbar-inverse .navbar-nav > li > a.NbLogin:focus
+{
+  color: white;
+  background-color: DarkOrange ;
+}
+
+.navbar-inverse .navbar-nav > li > a#NbSettings:hover ,
+.navbar-inverse .navbar-nav > li > a#NbSettings:focus
+{
+  color: white;
+  background-color: Green ;
+}
+
+.navbar-inverse .navbar-nav > li > a#NbLogout:hover ,
+.navbar-inverse .navbar-nav > li > a#NbLogout:focus
+{
+  color: white;
+  background-color: DarkOrange ;
+}
+
+
+/* ***************************** */
+
+#RegistrationForm label.error {
+  color: red;
+	display: inline;
+  font-style: italic;
+  font-weight: normal;
+/*
+	margin: 10px;
+	width: auto;
+*/
+}
+
+#UserDetailsForm label.error {
+  color: red;
+	display: inline;
+  font-style: italic;
+  font-weight: normal;
+}
+
+#ChangePassWordForm label.error {
+  color: red;
+	display: inline;
+  font-style: italic;
+  font-weight: normal;
+}
+
+/* ***************************** */
+
+.greenmybox
+{
+  color: Green;
+  padding: 0.5em;
+  border: 2px solid Green;
+  border-radius:10px;
+}
+
+.bluemybox
+{
+  color: Blue;
+  padding: 0.5em;
+  border: 2px solid Blue;
+  border-radius:10px;
+}
+
+.redmybox
+{
+  color: Red;
+  padding: 0.5em;
+  border: 2px solid Red;
+  border-radius:10px;
+}
+
+
+/* ***************************** */
+
+.paginate {
+/*
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .7em;
+*/
+}
+
+a.paginate {
+	color: RoyalBlue;
+	border: 1px solid RoyalBlue;
+	padding: 6px 9px 6px 9px;
+	text-decoration: none;
+/*
+  DodgerBlue
+	color: #000080;
+	border: 1px solid #000080;
+	padding: 2px 6px 2px 6px;
+*/
+}
+
+
+a.paginate:hover {
+	background-color: RoyalBlue;
+	color: #FFFFFF;
+	text-decoration: underline;
+/*
+  DodgerBlue
+	background-color: #000080;
+*/
+}
+
+a.current {
+	background:RoyalBlue;
+	border: 1px solid RoyalBlue;
+	padding: 6px 9px 6px 9px;
+	cursor: default;
+	color: #FFFFFF;
+	text-decoration: none;
+  /*
+  DodgerBlue
+	background:#000080;
+	border: 1px solid #000080;
+	padding: 2px 6px 2px 6px;
+	font: bold .7em Arial,Helvetica,sans-serif;
+  */
+}
+
+span.inactive {
+	border: 1px solid #999999;
+	padding: 6px 9px 6px 9px;
+	color: #999999;
+	cursor: default;
+  /*
+	padding: 2px 6px 2px 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .7em;
+  */
+}
+
+
+/* ***************************** */
+
+.myfoot {
+  color: #AAAAAA;
+  background-color: #111111;
+  padding: 15px 0px 15px 0px ;
+}
+
+
+/* ***************************** */
+
+/*
+table {
+	margin: 8px;
+}
+th {
+	background: #666;
+	color: #FFF;
+	padding: 2px 6px;
+	border-collapse: separate;
+	border: 1px solid #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9em;
+}
+td {
+	border: 1px solid #DDD;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9em;
+}
+tr:hover {
+	background: #ffc;
+}
+*/
+
+/*
+#signupForm { width: 670px; }
+#newsletter_topics label.error {
+	display: none;
+	margin-left: 103px;
+}
+*/
+
+/* ***************************** */
