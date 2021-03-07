@@ -58,7 +58,7 @@
         <div class="carousel-inner">
 
             <div class="item active">
-                <div class="fill" style="background-image:url('img/NCS-1.png');"></div>
+                <div class="fill" style="background-image:url('img/NCS-1.jpg');"></div>
 
                 <!--
                 <div class="carousel-caption">
@@ -69,7 +69,7 @@
 
 
             <div class="item">
-                <div class="fill" style="background-image:url('img/NCS-2.png');"></div>
+                <div class="fill" style="background-image:url('img/NCS-2.jpg');"></div>
 
                 <!--
                 <div class="carousel-caption">
@@ -79,7 +79,7 @@
             </div>
 
             <div class="item">
-                <div class="fill" style="background-image:url('img/NCS-3.png');"></div>
+                <div class="fill" style="background-image:url('img/NCS-3.jpg');"></div>
 
                 <!--
                 <div class="carousel-caption">
