@@ -74,11 +74,11 @@ else
 <?php
 		while($row_test = mysqli_fetch_array($result_test))
 		{
-			if ("$row_test[state]" == "completed") $bgclr = 'completed';
-			if ("$row_test[state]" == "running")	 $bgclr = 'running';
+			//if ("$row_test[state]" == "completed") $bgclr = 'completed';
+			//if ("$row_test[state]" == "running")	 $bgclr = 'running';
 	/*
 	*/
-			$rstate = ucfirst("$row_test[state]");
+			//$rstate = ucfirst("$row_test[state]");
 ?>
 
 			<form name='form-s<?php echo "$row_test[tid]";?>' method="post" action='test-case'>
