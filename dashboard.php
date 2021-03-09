@@ -8,17 +8,13 @@
         **         Oct 2018
         */
 ?>
-<?php
-  include ('login-user-check.php');
-?>
-<?php
-	include 'bs-abc.php';
-?>
 
 <?php
-	include 'cd-home.php';
-?>
-
-<?php
-	include 'bs-xyz.php';
+    if  (!isset($_SESSION['SESSION_NKPUID'])) {
+      include ('bs-abc.php');
+      include ('cd-home.php');
+      include ('bs-xyz.php');
+    } else {
+      include ('navbar.php');
+    }
 ?>

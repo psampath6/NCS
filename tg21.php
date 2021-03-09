@@ -8,7 +8,10 @@
 **         Mar 2021
 */
 ?>
+<?php
+#error_reporting(E_ALL);
 
+?>
 <?php
 	include 'bs-abc.php';
 ?>
@@ -29,7 +32,6 @@ if ($_POST['date'] == "")
 */
 
 // echo $_POST['bid'];
-
 if (isset($_POST['dte']))
 {
 	$bid = $_POST['bid'];
@@ -48,7 +50,7 @@ else
 	echo "&nbsp;&nbsp; Triggers : ";
 	echo "<br>";
 
-	$result_test = mysqli_query($con, "SELECT * FROM triggers where Application='GNMI-MSDC1'");
+	$result_test = mysqli_query($dbc, "SELECT * FROM triggers where Application='GNMI-MSDC1'");
 
 	if ( ! mysqli_num_rows($result_test) )
 	{
@@ -74,11 +76,11 @@ else
 <?php
 		while($row_test = mysqli_fetch_array($result_test))
 		{
-			if ("$row_test[state]" == "completed") $bgclr = 'completed';
-			if ("$row_test[state]" == "running")	 $bgclr = 'running';
+			//if ("$row_test[state]" == "completed") $bgclr = 'completed';
+			//if ("$row_test[state]" == "running")	 $bgclr = 'running';
 	/*
 	*/
-			$rstate = ucfirst("$row_test[state]");
+			//$rstate = ucfirst("$row_test[state]");
 ?>
 
 			<form name='form-s<?php echo "$row_test[tid]";?>' method="post" action='test-case'>

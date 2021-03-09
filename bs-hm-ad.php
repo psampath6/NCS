@@ -7,25 +7,20 @@
 ** Author: Pradeep Sampath ( pradeepsampath@gmail.com )
 **         Mar 2021
 */
-
 ?>
 <?php
+if(!isset($_SESSION['SESSION_NKPUID']))
+{
+	header("Location: login.php");
+	exit;
+}
+$vsNkpUid = $_SESSION['SESSION_NKPUID'];
 
-  if(!isset($_SESSION['SESSION_NKPUID']))
-  {
-    header("Location: login.php");
-    exit;
-  }
+$vsEmailid = $_SESSION['SESSION_EMAILID'];
 
+$vsFirstName = $_SESSION['SESSION_FIRSTNAME'];
 
-  $vsNkpUid = $_SESSION['SESSION_NKPUID'];
-
-  $vsEmailid = $_SESSION['SESSION_EMAILID'];
-
-  $vsFirstName = $_SESSION['SESSION_FIRSTNAME'];
-
-  $vsLastName = $_SESSION['SESSION_LASTNAME'];
-
+$vsLastName = $_SESSION['SESSION_LASTNAME'];
 ?>
 <style>
 </style>

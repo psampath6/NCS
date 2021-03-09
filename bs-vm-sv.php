@@ -11,7 +11,7 @@
 
 <?php
 
-	$result_display_campaign = mysqli_query($con, "SELECT * FROM builds
+	$result_display_campaign = mysqli_query($dbc, "SELECT * FROM builds
 									WHERE platform = 'DISPLAY' && application = 'CAMPAIGN_API'
 									ORDER BY start DESC");
 	$row_display_campaign = mysqli_fetch_array($result_display_campaign) ;
@@ -20,7 +20,7 @@
 
 	<li style="border-top:1px solid #333; " >
 		<a data-toggle="collapse" data-target="#demovm4" style="cursor:pointer;" >
-			<i class="fa fa-fw fa-arrows-v"></i> SERVICES <i class="fa fa-fw fa-caret-down"></i></a>
+			<i class="fa fa-fw fa-arrows-v"></i> MPLS <i class="fa fa-fw fa-caret-down"></i></a>
 
 		<ul id="demovm4" class="collapse">
 
@@ -31,7 +31,7 @@
 					<input type="hidden" name="dte" />
 				</form>
 				<a onclick="document.forms['form-campaign'].submit();" style="cursor:pointer;" >
-				Campaign / Advertiser API</a>
+				GNMI Subscriptions on MPLS</a>
 			</li>
 
 		</ul>

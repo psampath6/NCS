@@ -177,7 +177,7 @@ exit;
 
         <div class="col-md-6 col-md-offset-3" >
 
-          <h2 class="text-center" >Property-for-Sale Ad.</h2>
+          <h2 class="text-center" >Data-Center-Solution Pod.</h2>
 
 
           <hr>
@@ -198,7 +198,7 @@ exit;
           <!--
           <hr>
           -->
-          <label>Photos / Pictures of Property</label>
+          <label>Photos / Pictures of Pod</label>
           <div>
             <?php
             foreach ($vExplodePixFileNameForSale as $vEachPixFileNameForSale)
@@ -233,25 +233,25 @@ exit;
           </div>
           <hr>
 
-          <label>Ad. Post Date</label>
+          <label>Pod. Post Date</label>
           <div id='advdisplay' class='btn-lg'>
             <?php echo $vAdDateForSale; ?>
           </div>
           <hr>
 
-          <label>Location / Place of Property</label>
+          <label>Location / Place of Pod</label>
           <div id='advdisplay' class='btn-lg'>
             <?php echo ucwords($vPlaceForSale); ?>
           </div>
           <hr>
 
-          <label>Ad. Posted By</label>
+          <label>Pod. Posted By</label>
           <div id='advdisplay' class='btn-lg'>
             <?php echo $vUserTypeForSale; ?>
           </div>
           <hr>
 
-          <label>Type of Property</label>
+          <label>Type of Pod</label>
           <div id='advdisplay' class='btn-lg'>
             <?php echo $vPropTypeForSale; ?>
           </div>
@@ -294,7 +294,7 @@ exit;
           <?php
           if ($vLandSizeForSale != '-') {
           ?>
-          <label>Land Area Size</label>
+          <label>Size of Pod</label>
           <div id='advdisplay' class='btn-lg'>
           <?php
           if ($vLandSizeForSale != '') {
@@ -312,7 +312,7 @@ exit;
           }
           ?>
 
-          <label>Rate of Property</label>
+          <label>Rate of Pod</label>
           <div id='advdisplay' class='btn-lg'>
           <?php
           if ($vRateForSale != '') {
@@ -330,7 +330,7 @@ exit;
           </div>
           <hr>
 
-          <label>Total Price of Property</label>
+          <label>Total Price of Pod</label>
           <div id='advdisplay' class='btn-lg'>
           <?php
           if ($vPriceForSale != '') {
@@ -375,7 +375,7 @@ exit;
           </div>
           <hr>
 
-          <label>Address of Property</label>
+          <label>Address of Pod</label>
           <div id='advdisplay' class='btn-lg'>
             <?php
             if ($vAddressForSale != '') {
@@ -385,7 +385,7 @@ exit;
           </div>
           <hr>
 
-          <label>Title / Subject of Property</label>
+          <label>Title / Subject of Pod</label>
           <div id='advdisplay' class='btn-lg'>
             <?php
             if ($vTitleForSale != '') {
@@ -395,7 +395,7 @@ exit;
           </div>
           <hr>
 
-          <label>Description / Details of Property</label>
+          <label>Description / Details of Pod</label>
           <div id='advdisplay' class='btn-lg'>
             <?php
             if ($vDescriptionForSale != '') {

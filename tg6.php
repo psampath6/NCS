@@ -48,7 +48,7 @@ else
 	echo "&nbsp;&nbsp; Triggers : ";
 	echo "<br>";
 
-	$result_test = mysqli_query($con, "SELECT * FROM triggers where Application='REST-MSDC2'");
+	$result_test = mysqli_query($dbc, "SELECT * FROM triggers where Application='REST-MSDC2'");
 
 	if ( ! mysqli_num_rows($result_test) )
 	{

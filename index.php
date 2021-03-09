@@ -21,7 +21,7 @@
     include ('head-tag.php');
 ?>
 
-<title>NCD - Northern California Dashboard </title>
+<title>NCS - Northern California Systems </title>
 <style>
   .indexlinks
   {
@@ -59,33 +59,15 @@
 
             <div class="item active">
                 <div class="fill" style="background-image:url('img/NCS-1.jpg');"></div>
-
-                <!--
-                <div class="carousel-caption">
-                    <h1>Northern California Properties</h1>
-                </div>
-                -->
             </div>
 
 
             <div class="item">
                 <div class="fill" style="background-image:url('img/NCS-2.jpg');"></div>
-
-                <!--
-                <div class="carousel-caption">
-                    <h1>Northern California Properties</h1>
-                </div>
-                -->
             </div>
 
             <div class="item">
                 <div class="fill" style="background-image:url('img/NCS-3.jpg');"></div>
-
-                <!--
-                <div class="carousel-caption">
-                    <h1><span style="color:black">Northern California Properties</span></h1>
-                </div>
-                -->
             </div>
         </div>
 
@@ -106,10 +88,7 @@
                  <div class="col-lg-12">
                     <span class="text-center" style="font-size:36px"><b>Northern California Systems (NCS)</b></span>
 
-                    <p class="text-center">A complete Website for Data center Networking Solutions.</p>
-                    <!--
-                    <p class="text-center">A complete Real-Estate / Property Website Portal to cater to the needs of People of Northern California Region.</p>
-                    -->
+                    <p class="text-center">A complete website for Data center Networking Solutions.</p>
                 </div>
             </div>
             <!-- /.row <hr> -->
@@ -131,7 +110,7 @@
                     </a>
                 </div>
 								<div class="col-lg-6 col-md-6">
-										<a href="post-property-ad.php">
+										<a href="about.php">
 											<h2 class="indexlinks" >
 												<i class="fa fa-check-circle"></i>
 												About

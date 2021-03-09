@@ -13,7 +13,7 @@
 ?>
 	<li style="border-top:1px solid #333; " >
 		<a data-toggle="collapse" data-target="#demovm3" style="cursor:pointer;" >
-			<i class="fa fa-fw fa-arrows-v"></i> MEDIAPLEX <i class="fa fa-fw fa-caret-down"></i></a>
+			<i class="fa fa-fw fa-arrows-v"></i> VXLAN <i class="fa fa-fw fa-caret-down"></i></a>
 		<ul id="demovm3" class="collapse">
 
 			<li>
@@ -23,7 +23,7 @@
 					<input type="hidden" name="dte" />
 				</form>
 				<a onclick="document.forms['form-adserver'].submit();" style="cursor:pointer;" >
-					AdServer</a>
+					GNMI on VXLAN Profile</a>
 			</li>
 
 			<li>
@@ -33,7 +33,7 @@
 					<input type="hidden" name="dte" />
 				</form>
 				<a onclick="document.forms['form-adserver-ui'].submit();" style="cursor:pointer;" >
-					AdServer UI</a>
+					Rest API on VXLAN Profile</a>
 			</li>
 
 			<li>
@@ -43,7 +43,7 @@
 					<input type="hidden" name="dte" />
 				</form>
 				<a onclick="document.forms['form-contextual'].submit();" style="cursor:pointer;" >
-					Contextual</a>
+					Netconf on VXLAN Profile</a>
 			</li>
 
 			<li>
@@ -53,7 +53,7 @@
 					<input type="hidden" name="dte" />
 				</form>
 				<a onclick="document.forms['form-forecast-engine'].submit();" style="cursor:pointer;" >
-					Forecast Engine</a>
+					NIR</a>
 			</li>
 			<!--
 			<li>

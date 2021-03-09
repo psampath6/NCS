@@ -24,7 +24,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>NXOS SIT Dashboard</title>
+	<title>NCS SIT Dashboard</title>
 
 	<!-- Bootstrap Core CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -95,11 +95,11 @@ body {
 					<span class="icon-bar"></span>
 				</button>
 				<!-- <a class="navbar-brand" href="index.php">CISCO</a> -->
-				<a class="" href=".">
 				<!--
-				-->
+				<a class="" href=".">
 				<img src="img/Cisco_Logo.png" alt="CISCO" height="51" width="95" align="right">
 				</a>
+			-->
 			</div>
 
 			<!-- Top Menu Items -->
@@ -116,9 +116,11 @@ body {
 				<?php
 					include 'bs-hm-rt.php';
 				?>
-				<?php
-					include 'bs-hm-ad.php';
-				?>
+
+				#<?php
+				#	include 'bs-hm-ad.php';
+				#?>
+
 			</ul>
 
 
@@ -130,7 +132,7 @@ body {
 <br>
 -->
 					<li class="active0" style="border-top:1px solid #444; border-bottom:1px solid #999;">
-						<a id="vm-db" href="."><i class="fa fa-fw fa-dashboard"></i>&nbsp; <b>DASHBOARD_HOME</b></a>
+						<a id="vm-db" href="dashboard.php"><i class="fa fa-fw fa-dashboard"></i>&nbsp; <b>DASHBOARD_HOME</b></a>
 					</li>
 
 					<!--   -->

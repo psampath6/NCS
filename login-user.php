@@ -89,7 +89,7 @@
 
         mysqli_close($dbc);
 
-        header("Location: dashboard.php");
+        header("Location: user-dashboard.php");
         exit();
 
       }

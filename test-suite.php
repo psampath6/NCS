@@ -65,7 +65,7 @@ else
 	echo "&nbsp;&nbsp; Test Suites : ";
 	echo "<br>";
 
-	$result_test = mysqli_query($con, "SELECT * FROM test INNER JOIN
+	$result_test = mysqli_query($dbc, "SELECT * FROM test INNER JOIN
 				(SELECT MAX(tid) AS tid FROM test
 				WHERE testdrive = 0 && build = '$bid' && application = '$app' && tid = '$tid' && MID(start,1,10) = '$dte'
 				GROUP BY name,application,build ORDER BY tid ASC)
