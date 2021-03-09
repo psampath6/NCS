@@ -20,6 +20,7 @@
 
       <ul class="nav navbar-nav navbar-right">
 
+        <li><a href="dashboard.php" class="NbDash">Dashboard</a></li>
         <li><a href="search-property.php" class="NbSearch">Search Solutions</a></li>
 
         <li><a href="post-property-ad.php" class="NbPostAd">Post Pods</a></li>
